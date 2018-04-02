@@ -39,6 +39,9 @@ public class OperationMath implements Operation {
 				case MINUS:
 					result -= temp;
 					break;
+					
+				case SINUS:
+					result = (float) Math.sin(temp);
 			}
 		}
 		return result;

@@ -5,5 +5,9 @@ package com.dima.func.compiled;
  */
 public interface Operation {
 	
+	/**
+	 * Запуск операции
+	 * @return результат выполнения
+	 */
 	Object execute(EngineContext context);
 }

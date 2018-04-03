@@ -35,9 +35,9 @@ public class EngineContext {
 	 */
 	public Object executeFunction(String functionName, Object[] args) {
 		if (functionName.equals("sin")) {
-			return Math.sin(Float.parseFloat(String.valueOf(args[0])));
+			return Math.sin((float) args[0]);
 		} else if (functionName.equals("cos")) {
-			return Math.cos(Float.parseFloat(String.valueOf(args[0])));
+			return Math.cos((float) args[0]);
 		}
 		else {
 			return 2;

@@ -10,6 +10,8 @@ public class OperationHelper {
 		Object object = operation.execute(context);
 		if (object instanceof Float) {
 			return (float) object;
+		} else if (object instanceof Double) {
+			return (float) (double) object;
 		} else if (object instanceof Integer) {
 			return (float) (int) object;
 		} else {

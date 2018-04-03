@@ -7,7 +7,7 @@ public enum LexemKind {
 	UNKNOWN,
 	BRACE,
 	PLUS, MINUS, MULTIPLY, DIVIDE,
-	SINUS,
+	POWER,
 	VARIABLE, NUMBER,
 	COMMA,
 }

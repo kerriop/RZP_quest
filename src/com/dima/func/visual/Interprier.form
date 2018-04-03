@@ -16,12 +16,12 @@
         </constraints>
         <properties/>
       </component>
-      <component id="266f7" class="javax.swing.JButton" binding="построитьButton" default-binding="true">
+      <component id="266f7" class="javax.swing.JButton" binding="buildButton" default-binding="true">
         <constraints>
           <grid row="0" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Построить"/>
+          <text value="Build"/>
         </properties>
       </component>
       <component id="85375" class="javax.swing.JLabel">

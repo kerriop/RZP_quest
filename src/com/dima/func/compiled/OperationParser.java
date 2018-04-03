@@ -46,7 +46,27 @@ public class OperationParser {
 		} else if (kind == LexemKind.NUMBER && lexems.size() == 1) {
 			return new OperationNumeric(Float.parseFloat(lexems.get(0).value));
 		} else if (kind == LexemKind.VARIABLE) {
-			return new OperationVariable(lexems.get(0).value);
+			String variableName = lexems.get(0).value;
+			if (lexems.size() >= 2) {
+				LexemKind nextKind = lexems.get(1).kind;
+				if (lexems.size() >= 3 && nextKind == LexemKind.POWER) {
+					List<Lexem> powerLexems = new ArrayList<>();
+					lexems.remove(0);
+					lexems.remove(0);
+					powerLexems.addAll(lexems);
+					return new OperationPower(
+							new OperationVariable(variableName),
+							parsePrimitive(powerLexems)
+					);
+				} else if (nextKind == LexemKind.BRACE) {
+					return new OperationFunction(
+							variableName,
+							parseFunctionArgs(lexems.get(1))
+					);
+				}
+			} else {
+				return new OperationVariable(lexems.get(0).value);
+			}
 		}
 		throw new CompileException(CompileException.constructMessage(
 				"Неизвестный синтаксический примитив! ",

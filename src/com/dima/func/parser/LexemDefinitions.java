@@ -9,8 +9,7 @@ public class LexemDefinitions {
 			new StaticLexemDefinition("+", LexemKind.PLUS),
 			new StaticLexemDefinition("-", LexemKind.MINUS),
 			new StaticLexemDefinition(",", LexemKind.COMMA),
-			
-			new StaticLexemDefinition("sin", LexemKind.SINUS),
+			new StaticLexemDefinition("^", LexemKind.POWER),
 	};
 	
 	public static DynamicLexemDefinition[] dynamics = new DynamicLexemDefinition[] {

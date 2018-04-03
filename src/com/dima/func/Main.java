@@ -8,8 +8,8 @@ import com.dima.func.parser.ParserException;
 
 public class Main {
 	
-	public static void main(String[] args) throws ParserException, CompileException {
-		Operation operation = OperationParser.parse("2 - x");
+	public static void main(String[] args) throws CompileException {
+		Operation operation = OperationParser.parse("sin(cos(x^2))");
 		EngineContext context = new EngineContext();
 
 		for (int i = 0; i < 10; i++) {

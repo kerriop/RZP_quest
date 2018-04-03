@@ -6,9 +6,9 @@
 
 # Документация
  Программа состоит из 3 модулей:
- --- compiled
+ h2 compiled
  
- --- parser
+ h2 parser
  
- --- visual
+ h2 visual
  

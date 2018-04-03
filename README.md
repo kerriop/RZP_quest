@@ -10,14 +10,31 @@
  Программа состоит из 3 модулей:
 
 ## compiled
-
+**CompileException.java**
+**EngineContext.java**
+**Operation.java**
+**OperationFunction.java**
+**OperationHelper.java**
+**OperationMath.java**
+**OperationNumeric.java**
+**OperationParser.java**
+**OperationPower.java**
+**OperationVariable.java**
 ____
 ## parser
-
+**DynamicLexemParser.java**
+**Lexem.java**
+**LexemDefinition.java**
+**LexemDefinitions.java**
+**LexemKind.java**
+**LexemParser.java**
+**LocationEntity.java**
+**ParserException.java**
+**StaticLexemDefinition.java**
 ____
 ## visual
 Модуль для визуальной составляющей, реализовано на библиотеке Swing
-### Interprier.java
+**Interprier.java**
 ____
  
 # Работа программы

@@ -73,6 +73,6 @@ ____
 ![Image](sample.png "Example")
 
 ### Частично спользованные источники  
-[Написание парсера](https://habrahabr.ru/post/202622/ "Хабр1")
-[Компилятор выражений](https://habrahabr.ru/post/50139/ "Хабр2")
-[Парсер выражений](https://habrahabr.ru/post/50158/ "Хабр3")
+[Написание парсера](https://habrahabr.ru/post/202622/ "Хабр1")  
+[Компилятор выражений](https://habrahabr.ru/post/50139/ "Хабр2")  
+[Парсер выражений](https://habrahabr.ru/post/50158/ "Хабр3")  

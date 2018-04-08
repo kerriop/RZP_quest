@@ -36,28 +36,30 @@
 Программа состоит из 3 модулей:  
 ![Image](structure.png "Структура")  
 
-## compiled
+## compiled  
+Оперирование с пропаршенными данными  
 - **CompileException.java** - обработка ошибок компиляции пропаршенных лексем
-- **EngineContext.java** - 
-- **Operation.java**
-- **OperationFunction.java**
-- **OperationHelper.java**
-- **OperationMath.java**
-- **OperationNumeric.java**
-- **OperationParser.java**
-- **OperationPower.java**
-- **OperationVariable.java**
+- **EngineContext.java** - класс получения контекста выполнения математических выражений
+- **Operation.java** - интерфейс для запуска операции и получения результата выполнения
+- **OperationFunction.java** - оперирование функциями после получения контекста 
+- **OperationHelper.java** - получение числового значения из ***Operation***
+- **OperationMath.java** - оперирование базовыми математическими операциями
+- **OperationNumeric.java** - представление константы в виде числа
+- **OperationParser.java** - парсинг аргументов по уровням внутри скобок функции
+- **OperationPower.java** - представление константы для возведения в степень
+- **OperationVariable.java** - представление переменной(например Х)
 ____
-## parser
-- **DynamicLexemParser.java**
-- **Lexem.java**
-- **LexemDefinition.java**
-- **LexemDefinitions.java**
-- **LexemKind.java**
-- **LexemParser.java**
-- **LocationEntity.java**
-- **ParserException.java**
-- **StaticLexemDefinition.java**
+## parser  
+Парсинг исходной строки  
+- **DynamicLexemDefinition.java** - парсинг динамических лексем с помощью регулярных выражений
+- **Lexem.java** - представление типа лексемы
+- **LexemDefinition.java** - описание лексемы типом через контент 
+- **LexemDefinitions.java** - определения лексем
+- **LexemKind.java** - типы лексем
+- **LexemParser.java** - ядро парсера лексем
+- **LocationEntity.java** - информация о позиции лексемы
+- **ParserException.java** - обработка ошибок при разборе исходного выражения
+- **StaticLexemDefinition.java** - определение статичных лексем
 ____
 ## visual
 Модуль для визуальной составляющей, реализовано на библиотеке Swing

@@ -15,7 +15,7 @@
  Программа состоит из 3 модулей:
 
 ## compiled
-- **CompileException.java**
+- **CompileException.java** - обработка ошибок компиляции пропаршенных лексем
 - **EngineContext.java**
 - **Operation.java**
 - **OperationFunction.java**

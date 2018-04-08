@@ -95,6 +95,7 @@ public class Interprier extends JFrame {
 							),
 							BorderLayout.CENTER
 					);
+					
 				} catch (CompileException e) {
 					e.printStackTrace();
 				}

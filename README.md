@@ -31,8 +31,9 @@
 - sin(), cos()
 
 # Документация
-![Image](structure.png "Структура")
- Программа состоит из 3 модулей:  
+Программа состоит из 3 модулей:  
+![Image](structure.png "Структура")  
+
 ## compiled
 - **CompileException.java** - обработка ошибок компиляции пропаршенных лексем
 - **EngineContext.java** - 

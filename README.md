@@ -45,4 +45,4 @@ ____
 # Работа программы
 Вводим выражение в строку - получаем график
 ____
-![Alt-текст](https://downloader.disk.yandex.ru/preview/c45543c7f7cd6115ed870915ee8bfac193c9c310b12a0edae4de6fe7e9bd9972/inf/2fSPJ7TzUTY3gHUuUz-RmpgjYQEQT_BpRJsUQN6xcFy2iCSGuaNMinF15EoiAqN4yfCz2tRrNE40XJoH35SeJQ%3D%3D?uid=0&filename=photo.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1600x764 "Программа")
+![Alt-текст](https://2.downloader.disk.yandex.ru/preview/e5ac31d93b293b2dadbf5b45290e71f597ed2095f66bfec0917dda5332730110/inf/2fSPJ7TzUTY3gHUuUz-Rmikw0CeabwDiZlREM1f6tDTjPzR_SzUHAOSM_1XXe3LbURi8DThum0MgDswzjxvhCw%3D%3D?uid=56578452&filename=sample.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1280x636 "Программа")

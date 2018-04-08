@@ -1,6 +1,5 @@
 package com.dima.func.visual;
 
-import com.dima.func.Main;
 import com.dima.func.compiled.*;
 
 import javax.swing.*;
@@ -10,14 +9,9 @@ import java.awt.event.ActionListener;
 
 
 public class Interprier extends JFrame {
-	private JPanel contentPane;
 	private JTextField textField1;
 	private JButton buildButton;
 	private JPanel rootPanel;
-	
-	/*public  static int x[] =  {50, 100, 150, 200, 250};
-	public  static int y[] =  {80, 200, 150, 320, 100};
-	public static int n = 5;*/
 	
 	/**
 	 * Компонент отрисовки графика
@@ -25,9 +19,7 @@ public class Interprier extends JFrame {
 	class MathGraphComponent extends JPanel {
 		private static final int GRAPH_OFFSET_X = 20;
 		private static final int GRAPH_OFFSET_Y = 20;
-		/*int xg[] = x;
-		int[] yg = y;
-		int ng = n;*/
+
 		private Operation function;
 		private float start, end, step;
 		
@@ -77,12 +69,9 @@ public class Interprier extends JFrame {
 	}
 	
 	public Interprier() {
-		setTitle("Интерпритатор выражений");
+		setTitle("Интерпретатор выражений");
 		
 		setContentPane(rootPanel);
-//		JPanel jcp = new JPanel(new BorderLayout());
-//		jcp.add(new DrawingComponent(), BorderLayout.CENTER);
-//		jcp.setBackground(Color.gray);
 		
 		pack();
 		setSize(500,400);

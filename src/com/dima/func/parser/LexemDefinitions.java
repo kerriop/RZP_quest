@@ -1,5 +1,8 @@
 package com.dima.func.parser;
 
+/**
+ * Определения лексем
+ */
 public class LexemDefinitions {
 	
 	public static StaticLexemDefinition[] statics = new StaticLexemDefinition[] {

@@ -1,7 +1,7 @@
 package com.dima.func.parser;
 
 /**
- * Информация о позиции
+ * Position information
  */
 public class LocationEntity {
 	public int offset;

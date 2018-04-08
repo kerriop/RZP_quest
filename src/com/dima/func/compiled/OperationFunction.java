@@ -2,6 +2,9 @@ package com.dima.func.compiled;
 
 import java.util.List;
 
+/**
+ * Оперирование функциями после получения контекста
+ */
 public class OperationFunction implements Operation {
 	private final String functionName;
 	private final List<Operation> braces;

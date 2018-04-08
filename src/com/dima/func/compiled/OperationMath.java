@@ -5,6 +5,9 @@ import com.dima.func.parser.LexemKind;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Оперирование базовыми математическими операциями
+ */
 public class OperationMath implements Operation {
 	private final LexemKind type;
 	private List<Operation> blocks;

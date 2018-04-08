@@ -8,6 +8,9 @@ import jdk.nashorn.internal.runtime.ParserException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Парсинг аргументов по уровням внутри скобок функции
+ */
 public class OperationParser {
 	
 	/**

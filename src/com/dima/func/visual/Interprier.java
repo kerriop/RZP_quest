@@ -7,7 +7,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-
+/**
+ * Визуализация работы программы
+ */
 public class Interprier extends JFrame {
 	private JTextField textField1;
 	private JButton buildButton;
@@ -69,7 +71,7 @@ public class Interprier extends JFrame {
 	}
 	
 	public Interprier() {
-		setTitle("Интерпретатор выражений");
+		setTitle("Interprier");
 		
 		setContentPane(rootPanel);
 		

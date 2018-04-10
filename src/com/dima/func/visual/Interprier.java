@@ -14,6 +14,11 @@ public class Interprier extends JFrame {
 	private JTextField textField1;
 	private JButton buildButton;
 	private JPanel rootPanel;
+	private JTextField textField2;
+	private JTextField textField3;
+	private JTextField textField4;
+	private JTextField textField5;
+	private JCheckBox graphCheckBox;
 	
 	/**
 	 * Компонент отрисовки графика
@@ -76,7 +81,7 @@ public class Interprier extends JFrame {
 		setContentPane(rootPanel);
 		
 		pack();
-		setSize(500,400);
+		setSize(600,130);
 		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		setLocationByPlatform(true);
 		setVisible(true);

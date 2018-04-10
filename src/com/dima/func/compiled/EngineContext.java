@@ -38,6 +38,8 @@ public class EngineContext {
 			return Math.sin((float) args[0]);
 		} else if (functionName.equals("cos")) {
 			return Math.cos((float) args[0]);
+		} else if (functionName.equals("tan")) {
+			return Math.tan((float) args[0]);
 		}
 		else {
 			return 2;
